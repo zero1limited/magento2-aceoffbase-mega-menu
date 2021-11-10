@@ -9,6 +9,10 @@ The Zero1 Ace Off Base Mega Menu module is a simple module which renders the mai
 - Renders desktop navigation as a mega menu
 - Ability to add static blocks inside each navigational dropdown
 
+## Static Blocks
+
+The mega menu module injects cms blocks into each dropdown relating to the position of that element within the navigation. Each block must have the identifier prefixed with ```z1-mega-menu-```, followed by the position of that particular nav element. For example, ```z1-mega-menu-1``` will display in the first dropdown in the navigation; ```z1-mega-menu-2``` will display in the second dropdown in the navigation and so on.
+ 
 ## Installation
 
 ```
