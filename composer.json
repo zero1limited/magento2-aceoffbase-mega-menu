@@ -1,0 +1,18 @@
+{
+    "name": "zero1/module-aceoffbase-mega-menu",
+    "description": "Renders the core Magento navigation as a mega menu on desktop with the ability to add promotional material via static blocks",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],    
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zero1\\AceOffBaseMegaMenu\\": ""
+        }
+    }
+}
